@@ -39,7 +39,16 @@
             <version>1.21.11-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+#Добавил API клиента hivemq-mqtt-client
 
+<!-- Source: https://mvnrepository.com/artifact/com.github.hivemq.hivemq-mqtt-client/hivemq-mqtt-client -->
+<dependency>
+    <groupId>com.github.hivemq.hivemq-mqtt-client</groupId>
+    <artifactId>hivemq-mqtt-client</artifactId>
+    <version>v1.3.7</version>
+    <scope>compile</scope>
+</dependency>
+             
         <dependency>
             <groupId>dev.oum</groupId>
             <artifactId>oumlib-core</artifactId>
